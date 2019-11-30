@@ -2,11 +2,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     ZenTest (4.3.3)
-    activerecord (2.3.8)
-      activesupport (= 2.3.8)
-    activesupport (2.3.8)
+    activerecord (2.3.14)
+      activesupport (= 2.3.14)
+    activesupport (2.3.14)
     addressable (2.2.0)
-    bson (1.0.4)
+    bson (1.0.9)
     builder (2.1.2)
     columnize (0.3.1)
     couch_potato (0.3.0)
@@ -27,7 +27,6 @@ GEM
     datamapper (1.0.0)
       dm-aggregates (= 1.0.0)
       dm-constraints (= 1.0.0)
-      dm-core (= 1.0.0)
       dm-core (= 1.0.0)
       dm-migrations (= 1.0.0)
       dm-serializer (= 1.0.0)
@@ -92,8 +91,8 @@ GEM
       ffi (>= 0.6.2)
     linecache (0.43)
     mime-types (1.16)
-    mongo (1.0.7)
-      bson (>= 1.0.4)
+    mongo (1.0.9)
+      bson (>= 1.0.5)
     mongo_mapper (0.8.2)
       activesupport (>= 2.3.4)
       jnunemaker-validatable (~> 1.8.4)
@@ -104,8 +103,8 @@ GEM
       durran-validatable (>= 2.0.1)
       mongo (~> 1.0.1)
       will_paginate (< 2.9)
-    plucky (0.3.4)
-      mongo (~> 1.0.7)
+    plucky (0.3.5)
+      mongo (~> 1.0.8)
     rake (0.8.7)
     rb-inotify (0.8.1)
       ffi (>= 0.5.0)
@@ -135,14 +134,14 @@ GEM
     trollop (1.16.2)
     tzinfo (0.3.22)
     uuidtools (2.1.1)
-    will_paginate (2.3.14)
+    will_paginate (2.3.17)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   ZenTest
-  activerecord (= 2.3.8)
+  activerecord (= 2.3.14)
   bundler
   couch_potato (= 0.3.0)
   cucumber
@@ -161,3 +160,6 @@ DEPENDENCIES
   sequel (~> 3.21.0)
   sqlite3-ruby
   tzinfo (= 0.3.22)
+
+BUNDLED WITH
+   1.17.3
