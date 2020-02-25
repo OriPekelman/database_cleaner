@@ -15,7 +15,7 @@ source "http://rubygems.org"
 # end
 
 group :development do
-  gem "rake"
+  gem "rake", ">= 12.3.3"
   gem "ruby-debug"
 
   gem "bundler"
