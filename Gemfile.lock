@@ -28,7 +28,6 @@ GEM
       dm-aggregates (= 1.0.0)
       dm-constraints (= 1.0.0)
       dm-core (= 1.0.0)
-      dm-core (= 1.0.0)
       dm-migrations (= 1.0.0)
       dm-serializer (= 1.0.0)
       dm-timestamps (= 1.0.0)
@@ -106,7 +105,7 @@ GEM
       will_paginate (< 2.9)
     plucky (0.3.4)
       mongo (~> 1.0.7)
-    rake (0.8.7)
+    rake (13.0.1)
     rb-inotify (0.8.1)
       ffi (>= 0.5.0)
     rcov (0.9.8)
@@ -153,7 +152,7 @@ DEPENDENCIES
   json_pure
   mongo_mapper (= 0.8.2)
   mongoid (= 1.9.1)
-  rake
+  rake (>= 12.3.3)
   rcov
   rspactor
   rspec
@@ -161,3 +160,6 @@ DEPENDENCIES
   sequel (~> 3.21.0)
   sqlite3-ruby
   tzinfo (= 0.3.22)
+
+BUNDLED WITH
+   1.17.3
