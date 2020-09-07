@@ -44,6 +44,6 @@ group :test do
 end
 
 group :cucumber do
-  gem "cucumber"
+  gem "cucumber", ">= 4.0.0"
   gem 'sqlite3-ruby'
 end
