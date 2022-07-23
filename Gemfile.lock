@@ -28,7 +28,6 @@ GEM
       dm-aggregates (= 1.0.0)
       dm-constraints (= 1.0.0)
       dm-core (= 1.0.0)
-      dm-core (= 1.0.0)
       dm-migrations (= 1.0.0)
       dm-serializer (= 1.0.0)
       dm-timestamps (= 1.0.0)
@@ -133,7 +132,7 @@ GEM
     sys-uname (0.8.4)
     term-ansicolor (1.0.5)
     trollop (1.16.2)
-    tzinfo (0.3.22)
+    tzinfo (0.3.61)
     uuidtools (2.1.1)
     will_paginate (2.3.14)
 
@@ -160,4 +159,7 @@ DEPENDENCIES
   ruby-debug
   sequel (~> 3.21.0)
   sqlite3-ruby
-  tzinfo (= 0.3.22)
+  tzinfo (= 0.3.61)
+
+BUNDLED WITH
+   2.1.4
