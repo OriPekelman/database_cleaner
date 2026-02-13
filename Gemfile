@@ -28,7 +28,7 @@ group :development do
   gem "datamapper",           "1.0.0"
     gem "dm-migrations",      "1.0.0"
     gem "dm-sqlite-adapter",  "1.0.0"
-  gem "mongoid",              "1.9.1"
+  gem "mongoid", "7.6.1"
     gem "tzinfo",             "0.3.22"
   gem "mongo_mapper",         "0.8.2"
   gem "couch_potato",         "0.3.0"
